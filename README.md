@@ -1,8 +1,6 @@
 # Fine-tuning-Phi-4-Model-using-LoRA-for-efficient-adaptation
 Efficiently fine-tune the Phi-4 language model using LoRA adapters. Train lightweight modules on your dataset to customize the model with minimal compute and storage. Includes loading, training, saving, and pushing adapters to Hugging Face Hub for easy sharing and deployment.
 
-# Fine-tuned Microsoft Phi-4 Model with LoRA Adapters
-
 This repository provides a **domain-adapted version of Microsoft Phi-4**, fine-tuned efficiently using Low-Rank Adaptation (LoRA) adapters. Fine-tuning was performed on a specialized dataset in a resource-efficient manner, leveraging only the adapted parameters and tokenizer files rather than the full model weights.
 
 ---
